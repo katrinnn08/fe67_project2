@@ -1,0 +1,37 @@
+
+
+          .wanttohelp {
+            border: #fef2eb;
+          }
+
+          .wanttohelpbutton {
+          width: 450px;
+          height: 116px;
+          line-height: 50px;
+          font-size: 20px;
+          text-align: center;
+          border-radius: 100px;
+        background: #FBC63E;
+        color:black;
+        
+        
+      } 
+      
+      .buttontohelptext{
+        font-family: 'Pt serif';
+        min-height: 100em;
+    vertical-align: middle;
+    
+      }
+
+      .helppic {
+        height: 100%;
+        width: 100%;
+        border: 22px solid #FBC63E;
+        /* outline-offset: 1px; */
+        border-radius: 145px;
+      }
+
+      .wanttohelppaw {
+        padding: 30px;
+      }
