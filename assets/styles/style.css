@@ -1,0 +1,35 @@
+/* font-family: 'PT Serif', serif; */
+
+
+
+.header__SocNetworks_Link {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-size: cover;
+}
+
+.header__image-button_TG {
+    background-image: url('../images/telegram_icon.svg');
+}
+
+.header__image-button_VK {
+  background-image: url('../images/vkontakte_icon.svg');
+}
+
+.header__image-button_Instagram {
+  background-image: url('../images/instagram_icon.svg');
+}
+
+.header__SocNetworks_Link:hover {
+  opacity: 0.5;
+  cursor: url('../images/cursor_paw_small_icon.png'), default;
+}
+  
+.header__SocNetworks_Link:active {
+  transform: scale(0.75);
+}
+
+
+
+  
