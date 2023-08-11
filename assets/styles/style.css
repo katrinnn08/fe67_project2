@@ -30,6 +30,96 @@
   transform: scale(0.75);
 }
 
+
+.catpage {
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.catpage_header {
+  height: 210px;
+}
+
+.catpage_pic {
+  display: grid;
+  grid-row: 1 / 6;
+  grid-column: 1 / 2;
+
+}
+
+.catpage_img {
+  height: 80%;
+
+  padding: 30px;
+  justify-content: center;
+}
+
+.catpage_text {
+  display: grid;
+  grid-row: 1 / 6;
+  grid-column: 2 / 3;
+}
+
+.catpage_h1 {
+
+  font-family: PT Serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+}
+
+.catpage_h2 {
+
+  font-family: PT, Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.catpage_article {
+
+  font-family: PT, Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.catpage_footnote {
+
+  font-family: PT, Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+
+.catpage_pickhomebtn {
+  width: 226px;
+  height: 53px;
+  border-radius: 9px;
+  background: #FBC63E;
+  text-align: center;
+  font-family: PT, Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+
+
+  
 .container {
   background: rgba(250, 153, 99, 0.13);
   width: 1500px;
