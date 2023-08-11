@@ -42,19 +42,27 @@
 }
 
 .catpage_pic {
+  display: grid;
   grid-row: 1 / 6;
   grid-column: 1 / 2;
 
 }
 
 .catpage_img {
-  height: 35%;
+  height: 80%;
+
   padding: 30px;
+  justify-content: center;
+}
+
+.catpage_text {
+  display: grid;
+  grid-row: 1 / 6;
+  grid-column: 2 / 3;
 }
 
 .catpage_h1 {
-  grid-row: 1 / 2;
-  grid-column: 2 / 3;
+
   font-family: PT Serif;
   font-size: 40px;
   font-weight: 700;
@@ -66,8 +74,7 @@
 }
 
 .catpage_h2 {
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
+
   font-family: PT, Serif;
   font-size: 24px;
   font-weight: 400;
@@ -77,8 +84,7 @@
 }
 
 .catpage_article {
-  grid-row: 3 / 4;
-  grid-column: 2 / 3;
+
   font-family: PT, Serif;
   font-size: 24px;
   font-weight: 400;
@@ -88,8 +94,7 @@
 }
 
 .catpage_footnote {
-  grid-row: 4 / 5;
-  grid-column: 2 / 3;
+
   font-family: PT, Serif;
   font-size: 24px;
   font-weight: 400;
@@ -98,10 +103,7 @@
   text-align: left;
 }
 
-.catpage_pickhomeblock {
-  grid-row: 5 / 6;
-  grid-column: 2 / 3;
-}
+
 
 .catpage_pickhomebtn {
   width: 226px;
