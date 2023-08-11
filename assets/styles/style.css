@@ -34,8 +34,8 @@
 .catpage {
   background-color: #FFFFFF;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 40% 50%;
+  grid-template-rows: 10% 10% 30% 10% 40%;
 }
 
 .catpage_header {
@@ -50,16 +50,22 @@
 }
 
 .catpage_img {
-  height: 80%;
 
   padding: 30px;
-  justify-content: center;
+
+}
+
+.catpage_paw {
+
+  position: absolute;
+  left: 580px;
 }
 
 .catpage_text {
   display: grid;
   grid-row: 1 / 6;
   grid-column: 2 / 3;
+  position: relative;
 }
 
 .catpage_h1 {
@@ -117,10 +123,10 @@
   font-weight: 700;
   line-height: 32px;
   letter-spacing: 0em;
-   }
+
+}
 
 
-  
 .container {
   background: rgba(250, 153, 99, 0.13);
   width: 1500px;
