@@ -10,7 +10,7 @@
 }
 
 .header__image-button_TG {
-    background-image: url('../images/telegram_icon.svg');
+  background-image: url('../images/telegram_icon.svg');
 }
 
 .header__image-button_VK {
@@ -25,11 +25,94 @@
   opacity: 0.5;
   cursor: url('../images/cursor_paw_small_icon.png'), default;
 }
-  
+
 .header__SocNetworks_Link:active {
   transform: scale(0.75);
 }
 
+.catpage {
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.catpage_header {
+  height: 210px;
+}
+
+.catpage_pic {
+  grid-row: 1 / 6;
+  grid-column: 1 / 2;
+
+}
+
+.catpage_img {
+  height: 35%;
+  padding: 30px;
+}
+
+.catpage_h1 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  font-family: PT Serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
 
 
-  
+}
+
+.catpage_h2 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  font-family: PT, Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.catpage_article {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  font-family: PT, Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.catpage_footnote {
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+  font-family: PT, Serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.catpage_pickhomeblock {
+  grid-row: 5 / 6;
+  grid-column: 2 / 3;
+}
+
+.catpage_pickhomebtn {
+  width: 226px;
+  height: 53px;
+  border-radius: 9px;
+  background: #FBC63E;
+  text-align: center;
+  font-family: PT, Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+
+}
