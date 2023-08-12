@@ -186,7 +186,7 @@ font-weight: 400;
 .container {
   background: rgba(250, 153, 99, 0.13);
   width: 1500px;
-  height: 500px;
+  /* height: 500px; */
 }
 
 .this_moments {
@@ -211,4 +211,16 @@ font-weight: 400;
   padding: 929px, 121px;
   border-radius: 31px;
   background: #FBC63E
+}
+
+.bootstrap__Cards {
+  background-color: rgba(250, 153, 99, 0.13);
+}
+
+.container {
+  max-width: 1355px;
+}
+
+.card {
+  width: 20rem;
 }
