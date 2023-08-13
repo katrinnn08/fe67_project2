@@ -15,10 +15,12 @@
   width: 27%;
   height: 14%;
 }
+
 .header__LogoPart_Logo {
   width: 100%;
   height: 100%;
 }
+
 .header__Navigation {
   display: flex;
   flex-direction: row;
@@ -26,13 +28,14 @@
   justify-content: space-between;
   margin-top: 1.5%;
 }
+
 .header__Nav_Point {
   box-sizing: border-box;
-text-decoration: none;
-color: #34231E;
-font-family: 'PT Serif', serif;
-font-size: 32px;
-font-weight: 400;
+  text-decoration: none;
+  color: #34231E;
+  font-family: 'PT Serif', serif;
+  font-size: 32px;
+  font-weight: 400;
 }
 
 .header__Nav_Point:visited {
@@ -58,6 +61,7 @@ font-weight: 400;
   justify-content: space-between;
   margin-top: 1.5%;
 }
+
 .header__SocNetworks_Link {
   width: 50px;
   height: 50px;
@@ -88,25 +92,27 @@ font-weight: 400;
 
 
 .catpage {
+
+  max-width: 1355px;
+  margin: auto;
+  padding: 3%;
   background-color: #FFFFFF;
   display: grid;
-  grid-template-columns: 40% 50%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 10% 10% 30% 10% 40%;
 }
 
-.catpage_header {
-  height: 210px;
-}
+
 
 .catpage_pic {
   display: grid;
   grid-row: 1 / 6;
   grid-column: 1 / 2;
-
+  align-items: start;
 }
 
 .catpage_img {
-
+  border-radius: 48px;
   padding: 30px;
 
 }
@@ -114,7 +120,8 @@ font-weight: 400;
 .catpage_paw {
 
   position: absolute;
-  left: 580px;
+  left: 400px;
+  bottom: 300px;
 }
 
 .catpage_text {
@@ -127,7 +134,7 @@ font-weight: 400;
 .catpage_h1 {
 
   font-family: PT Serif;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 53px;
   letter-spacing: 0em;
@@ -169,6 +176,11 @@ font-weight: 400;
 
 
 .catpage_pickhomebtn {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
   width: 226px;
   height: 53px;
   border-radius: 9px;
@@ -179,8 +191,13 @@ font-weight: 400;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: 0em;
-
+  color: black;
 }
+
+.catpage_pickhomebtn:hover {
+  color: brown;
+}
+
 
 
 .container {
