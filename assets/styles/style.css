@@ -242,3 +242,35 @@
 .card {
   width: 20rem;
 }
+
+.footer {
+  display: grid;
+  width: 100%;
+  height: 15%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer__SocNetworks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 2/3;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer__Logo {
+  display: grid;
+  grid-column: 3/6;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer__SocNetworks_Link {
+  width: 63px;
+  height: 100%;
+}
+
+.footer__SocNetworks_Link:hover {
+  opacity: 0.5;
+  cursor: url('../images/cursor_paw_small_icon.png'), default;
+}
