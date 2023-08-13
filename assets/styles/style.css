@@ -15,10 +15,12 @@
   width: 27%;
   height: 14%;
 }
+
 .header__LogoPart_Logo {
   width: 100%;
   height: 100%;
 }
+
 .header__Navigation {
   display: flex;
   flex-direction: row;
@@ -26,13 +28,14 @@
   justify-content: space-between;
   margin-top: 1.5%;
 }
+
 .header__Nav_Point {
   box-sizing: border-box;
-text-decoration: none;
-color: #34231E;
-font-family: 'PT Serif', serif;
-font-size: 32px;
-font-weight: 400;
+  text-decoration: none;
+  color: #34231E;
+  font-family: 'PT Serif', serif;
+  font-size: 32px;
+  font-weight: 400;
 }
 
 .header__Nav_Point:visited {
@@ -58,6 +61,7 @@ font-weight: 400;
   justify-content: space-between;
   margin-top: 1.5%;
 }
+
 .header__SocNetworks_Link {
   width: 50px;
   height: 50px;
@@ -223,4 +227,36 @@ font-weight: 400;
 
 .card {
   width: 20rem;
+}
+
+.footer {
+  display: grid;
+  width: 100%;
+  height: 15%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer__SocNetworks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 2/3;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer__Logo {
+  display: grid;
+  grid-column: 3/6;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer__SocNetworks_Link {
+  width: 63px;
+  height: 100%;
+}
+
+.footer__SocNetworks_Link:hover {
+  opacity: 0.5;
+  cursor: url('../images/cursor_paw_small_icon.png'), default;
 }
