@@ -1,0 +1,67 @@
+.container_conditions {
+    background: #FAC663 40 %;
+}
+
+.conditions_paw {
+    width: 217.87px;
+    height: 169.88px;
+}
+
+.conditions_text {
+    width: 403px;
+    height: 101px;
+    margin-bottom: 1%;
+    border-radius: 60px;
+
+
+    font-size: 30px;
+    font-family: PT serif;
+    text-align: Center;
+    color: #000000;
+    background: #FBC63E;
+    width: 554px;
+    height: 126px;
+    top: 3494px;
+    left: 217px;
+}
+
+.first_conditions {
+    display: flex;
+    flex-direction: row;
+    font-family: PT serif;
+    width: 366px;
+    height: 246px;
+    left: 81px;
+    padding-left: 2%;
+    padding: 2%;
+
+}
+
+.condition_1 {
+    width: 165px;
+    height: 42px;
+    left: 110px;
+    padding-left: 2%;
+    padding: 2%;
+
+    background-color:
+        #FFFFFF;
+    width: 185px;
+    height: 59px;
+    top: 3711px;
+    left: 96px;
+}
+
+.condition1_1 {
+    background-color: #FBC63E;
+}
+
+.condition_2 {
+    background-color: #FBC63E;
+}
+
+.second_conditions {
+    display: flex;
+    flex-direction: row;
+    font-family: PT serif;
+}
