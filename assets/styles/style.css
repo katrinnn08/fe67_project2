@@ -223,4 +223,11 @@ font-weight: 400;
 
 .card {
   width: 20rem;
+  gap: 20px;
+}
+
+.btn {
+  width: 70%;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
