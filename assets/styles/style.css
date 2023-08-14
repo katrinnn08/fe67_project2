@@ -284,8 +284,14 @@
   border: #fef2eb;
 }
 
+.wanttohelpdiv {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 2fr;
+}
+
 .wanttohelpbutton {
-  width: 450px;
+  max-width: 450px;
   height: 70px;
   line-height: 30px;
   font-size: 20px;
@@ -300,17 +306,23 @@
     font-family: 'Pt serif';
     vertical-align: middle;
     padding: 20px;
+    max-width: 1fr;
     
   }
+
+
 
   .helppic {
 
     height: 100%;
-    width: 100%;
-    border: 22px solid #FBC63E;
-        /* outline-offset: 1px; */
-    border-radius: 145px;
-  }
+    max-width: 530px;
+    border: 19px solid #FBC63E;
+    border-radius: 150px;  
+}
+
+.helpdiv {
+  max-width: 509px;
+}
 
   .wanttohelppaw {
     padding: 30px;
