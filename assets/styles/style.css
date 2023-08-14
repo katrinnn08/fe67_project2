@@ -285,6 +285,7 @@
 
 .wanttohelp {
   border: #fef2eb;
+  background-color: rgba(250, 153, 99, 0.13);
 }
 
 .wanttohelpdiv {
@@ -382,7 +383,7 @@
   display: grid;
   gap: 20px;
   align-items: left;
-  background: #FAC663 40 %;
+  background: #FAC663 40%;
   grid-template-columns: 1fr 300 px;
   background: #FAC663 40%;
 
@@ -419,7 +420,6 @@
   left: 81px;
   padding-left: 2%;
   padding: 2%;
-=======
   left: 243px;
   bottom: 300px;
 }
@@ -466,7 +466,6 @@
   size: 20px;
   height: 246px;
   left: 81px;
-  radius: 9px;
 }
 
 
@@ -494,7 +493,7 @@
 .second_conditions {
   display: flex;
   flex-direction: row;
-
+ }
   
 .card2 {
   display: grid;
@@ -505,7 +504,7 @@
   size: 20px;
   height: 246px;
   left: 81px;
-  radius: 9px;
+
 }
 
 .second_conditions {
@@ -525,7 +524,7 @@
   size: 20px;
   height: 246px;
   left: 81px;
-  radius: 9px;
+  
 }
 
 h4 {
@@ -580,4 +579,4 @@ h4 {
 .footer__SocNetworks_Link:hover {
   opacity: 0.5;
   cursor: url('../images/cursor_paw_small_icon.png'), default;
-
+}
