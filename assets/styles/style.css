@@ -1,5 +1,4 @@
 
-
 /* font-family: 'PT Serif', serif; */
 
 
@@ -327,72 +326,120 @@
   }
 
 .container_conditions {
-    background: #FAC663 40%;
+
+  display: grid;
+  gap: 20px;
+  align-items: left;
+  background: #FAC663 40 %;
+  grid-template-columns: 1fr 300 px;
+  background: #FAC663 40%;
+
 }
 
 .conditions_paw {
-    width: 217.87px;
-    height: 169.88px;
+  width: 217.87px;
+  height: 169.88px;
+  left: 243px;
+  bottom: 300px;
 }
 
 .conditions_text {
-    width: 403px;
-    height: 101px;
-    margin-bottom: 1%;
-    border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  width: 403px;
+  height: 101px;
+  right: 217px;
+  border-radius: 60px;
 
+  font-size: 25px;
+  font-weight: bold;
+  font-family: PT serif;
+  text-align: Center;
+  color: #000000;
+  background: #FBC63E;
+}
 
-    font-size: 30px;
-    font-family: PT serif;
-    text-align: Center;
-    color: #000000;
-    background: #FBC63E;
-    width: 554px;
-    height: 126px;
-    top: 3494px;
-    left: 217px;
+.conditions_cat {
+  position: inherit;
+  margin-top: -50px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
 
 .first_conditions {
-    display: flex;
-    flex-direction: row;
-    font-family: PT serif;
-    width: 366px;
-    height: 246px;
-    left: 81px;
-    padding-left: 2%;
-    padding: 2%;
-
+  flex: 1;
+  font-family: 'Cardo', serif;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
-.condition_1 {
-    width: 165px;
-    height: 42px;
-    left: 110px;
-    padding-left: 2%;
-    padding: 2%;
-
-    background-color:
-        #FFFFFF;
-    width: 185px;
-    height: 59px;
-    top: 3711px;
-    left: 96px;
+.card1 {
+  display: grid;
+  width: 14%;
+  background: #FBC63E;
+  margin: 10px;
+  padding: 10px;
+  size: 20px;
+  height: 246px;
+  left: 81px;
+  radius: 9px;
 }
 
-.condition1_1 {
-    background-color: #FBC63E;
-}
-
-.condition_2 {
-    background-color: #FBC63E;
+.card2 {
+  display: grid;
+  width: 14%;
+  background: #FBC63E;
+  margin: 10px;
+  padding: 10px;
+  size: 20px;
+  height: 246px;
+  left: 81px;
+  radius: 9px;
 }
 
 .second_conditions {
-    display: flex;
-    flex-direction: row;
-    font-family: PT serif;
-  
+  font-family: 'Cardo', serif;
+  display: flex;
+  flex-basis: 300px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.card3 {
+  display: grid;
+  width: 14%;
+  background: #FBC63E;
+  margin: 10px;
+  padding: 10px;
+  size: 20px;
+  height: 246px;
+  left: 81px;
+  radius: 9px;
+}
+
+h4 {
+  background: white;
+  font-size: 20px;
+  width: 165px;
+  height: 42px;
+  left: 523px;
+}
+
+.card4 {
+  display: grid;
+  width: 14%;
+  background: #FBC63E;
+  margin: 10px;
+  padding: 10px;
+  size: 20px;
+  height: 246px;
+  left: 81px;
+  radius: 9px;
+  font-family: PT serif;
+
 }
 
 
@@ -426,5 +473,6 @@
 .footer__SocNetworks_Link:hover {
   opacity: 0.5;
   cursor: url('../images/cursor_paw_small_icon.png'), default;
+
 }
 
