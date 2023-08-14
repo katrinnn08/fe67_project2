@@ -1,3 +1,4 @@
+
 /* font-family: 'PT Serif', serif; */
 
 
@@ -286,8 +287,14 @@
   border: #fef2eb;
 }
 
+.wanttohelpdiv {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr, 2fr;
+}
+
 .wanttohelpbutton {
-  width: 450px;
+  max-width: 450px;
   height: 70px;
   line-height: 30px;
   font-size: 20px;
@@ -331,11 +338,60 @@
 
 .container_conditions {
   background: #FAC663 40%;
+
+  } 
+      
+  .buttontohelptext{
+    font-family: 'Pt serif';
+    vertical-align: middle;
+    padding: 20px;
+    max-width: 1fr;
+    
+  }
+
+
+
+  .helppic {
+
+    height: 100%;
+    max-width: 530px;
+    border: 19px solid #FBC63E;
+    border-radius: 150px;  
+}
+
+.helpdiv {
+  max-width: 509px;
+}
+
+  .wanttohelppaw {
+      padding: 30px;
+  }
+
+  .wanttopay, .paytext {
+    font-family: 'Pt serif';
+    margin: 30px;
+  }
+
+  .top-cover {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.container_conditions {
+
+  display: grid;
+  gap: 20px;
+  align-items: left;
+  background: #FAC663 40 %;
+  grid-template-columns: 1fr 300 px;
+  background: #FAC663 40%;
+
 }
 
 .conditions_paw {
   width: 217.87px;
   height: 169.88px;
+
 }
 
 .conditions_text {
@@ -343,8 +399,6 @@
   height: 101px;
   margin-bottom: 1%;
   border-radius: 60px;
-
-
   font-size: 30px;
   font-family: PT serif;
   text-align: Center;
@@ -365,8 +419,56 @@
   left: 81px;
   padding-left: 2%;
   padding: 2%;
-
+=======
+  left: 243px;
+  bottom: 300px;
 }
+
+.conditions_text {
+  display: flex;
+  justify-content: center;
+  width: 403px;
+  height: 101px;
+  right: 217px;
+  border-radius: 60px;
+
+  font-size: 25px;
+  font-weight: bold;
+  font-family: PT serif;
+  text-align: Center;
+  color: #000000;
+  background: #FBC63E;
+}
+
+.conditions_cat {
+  position: inherit;
+  margin-top: -50px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.first_conditions {
+  flex: 1;
+  font-family: 'Cardo', serif;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.card1 {
+  display: grid;
+  width: 14%;
+  background: #FBC63E;
+  margin: 10px;
+  padding: 10px;
+  size: 20px;
+  height: 246px;
+  left: 81px;
+  radius: 9px;
+}
+
 
 .condition_1 {
   width: 165px;
@@ -374,9 +476,7 @@
   left: 110px;
   padding-left: 2%;
   padding: 2%;
-
-  background-color:
-    #FFFFFF;
+  background-color:#FFFFFF;
   width: 185px;
   height: 59px;
   top: 3711px;
@@ -394,6 +494,57 @@
 .second_conditions {
   display: flex;
   flex-direction: row;
+
+  
+.card2 {
+  display: grid;
+  width: 14%;
+  background: #FBC63E;
+  margin: 10px;
+  padding: 10px;
+  size: 20px;
+  height: 246px;
+  left: 81px;
+  radius: 9px;
+}
+
+.second_conditions {
+  font-family: 'Cardo', serif;
+  display: flex;
+  flex-basis: 300px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.card3 {
+  display: grid;
+  width: 14%;
+  background: #FBC63E;
+  margin: 10px;
+  padding: 10px;
+  size: 20px;
+  height: 246px;
+  left: 81px;
+  radius: 9px;
+}
+
+h4 {
+  background: white;
+  font-size: 20px;
+  width: 165px;
+  height: 42px;
+  left: 523px;
+}
+
+.card4 {
+  display: grid;
+  width: 14%;
+  background: #FBC63E;
+  margin: 10px;
+  padding: 10px;
+  size: 20px;
+  height: 246px;
+  left: 81px;
   font-family: PT serif;
 
 }
@@ -429,4 +580,4 @@
 .footer__SocNetworks_Link:hover {
   opacity: 0.5;
   cursor: url('../images/cursor_paw_small_icon.png'), default;
-}
+
