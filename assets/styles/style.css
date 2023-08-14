@@ -322,20 +322,17 @@
   margin: 20px;
 }
 
-.buttontohelptext {
-  font-family: 'Pt serif';
-  vertical-align: middle;
-  padding: 20px;
-
-}
-
 .helppic {
 
-  height: 100%;
   width: 100%;
-  border: 22px solid #FBC63E;
-  /* outline-offset: 1px; */
+  border: 18px solid #FBC63E;
+  outline-offset: 1px; 
   border-radius: 145px;
+} 
+
+.helppic>img {
+  position: relative;
+  z-index: -1;
 }
 
 .wanttohelppaw {
@@ -355,7 +352,7 @@
 
 
       
-  .buttontohelptext{
+.buttontohelptext{
     font-family: 'Pt serif';
     vertical-align: middle;
     padding: 20px;
@@ -363,33 +360,10 @@
     
   }
 
-
-
-  .helppic {
-
-    height: 100%;
-    max-width: 530px;
-    border: 19px solid #FBC63E;
-    border-radius: 150px;  
-}
-
-.helpdiv {
+/* .helpdiv {
   max-width: 509px;
-}
+} */
 
-  .wanttohelppaw {
-      padding: 30px;
-  }
-
-  .wanttopay, .paytext {
-    font-family: 'Pt serif';
-    margin: 30px;
-  }
-
-  .top-cover {
-    margin-left: auto;
-    margin-right: auto;
-  }
 
 
 .conditions {
