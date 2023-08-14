@@ -1,9 +1,10 @@
+
 /* font-family: 'PT Serif', serif; */
 
 
 
 .header_Container {
-  max-width: 1355px;
+  max-width: 1420px;
   margin: auto;
   padding: 3%;
   display: flex;
@@ -90,11 +91,27 @@
   transform: scale(0.75);
 }
 
+.slider {
+  background-color: rgba(250, 153, 99, 0.13);
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.carousel {
+  width: 55%;
+  margin: 0 auto;
+  border: 5px solid #FBC63E;
+  border-radius: 10px;
+}
+
+.carousel-inner {
+  border: 5px solid rgba(250, 153, 99, 0.13);
+}
+
 
 .catpage {
 
-  max-width: 1355px;
-  margin: auto;
+  margin: 0 auto;
   padding: 3%;
   background-color: #FFFFFF;
   display: grid;
@@ -201,22 +218,35 @@
 
 
 
-.container {
+.wards {
   background: rgba(250, 153, 99, 0.13);
-  width: 1500px;
-  /* height: 500px; */
+}
+
+.wards_block {
+ 
+  height: 400px;
+  margin: auto;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .this_moments {
   color: black;
   text-transform: none;
-  font-size: 36px;
+  font-size: 34px;
   font-family: serif;
   font-style: normal;
   text-align: center;
   opacity: 0.8;
   border-radius: 31px;
   background: linear-gradient(180deg, rgba(250, 198, 99, 0.00) 0%, #f07841 79.69%);
+}
+
+.paw_wards {
+  width: 15rem;
+  height: 15rem;
 }
 
 .our_wards {
@@ -226,8 +256,11 @@
   font-style: normal;
   font-family: serif;
   text-align: center;
-  padding: 929px, 121px;
   border-radius: 31px;
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+  /* clearfix */
   background: #FBC63E
 }
 
@@ -236,20 +269,71 @@
 }
 
 .container {
-  max-width: 1355px;
+  
+  max-width: 1420px;
+  margin: 0 auto;
 }
 
 .card {
   width: 20rem;
 }
 
+
+.wanttohelp {
+  border: #fef2eb;
+}
+
+.wanttohelpbutton {
+  width: 450px;
+  height: 70px;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+  background: #FBC63E;
+  color:black;
+  margin: 20px;
+  } 
+      
+  .buttontohelptext{
+    font-family: 'Pt serif';
+    vertical-align: middle;
+    padding: 20px;
+    
+  }
+
+  .helppic {
+
+    height: 100%;
+    width: 100%;
+    border: 22px solid #FBC63E;
+        /* outline-offset: 1px; */
+    border-radius: 145px;
+  }
+
+  .wanttohelppaw {
+    padding: 30px;
+      }
+
+  .wanttopay, .paytext {
+    font-family: 'Pt serif';
+    margin: 30px;
+  }
+
+  .top-cover {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .container_conditions {
-  max-width: 1355px;
+
   display: grid;
   gap: 20px;
   align-items: left;
   background: #FAC663 40 %;
   grid-template-columns: 1fr 300 px;
+  background: #FAC663 40%;
+
 }
 
 .conditions_paw {
@@ -321,7 +405,7 @@
   display: flex;
   flex-basis: 300px;
   flex-direction: row;
-  <<<<<<< HEAD justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .card3 {
@@ -354,7 +438,7 @@ h4 {
   height: 246px;
   left: 81px;
   radius: 9px;
-  =======font-family: PT serif;
+  font-family: PT serif;
 
 }
 
@@ -389,5 +473,6 @@ h4 {
 .footer__SocNetworks_Link:hover {
   opacity: 0.5;
   cursor: url('../images/cursor_paw_small_icon.png'), default;
-  >>>>>>>5f6d64ee3190932e5c7d7d2c4206f5da999ab2cc
+
 }
+
