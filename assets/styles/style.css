@@ -473,7 +473,7 @@
 
 .footer__Logo {
   display: grid;
-  grid-column: 3/6;
+  grid-column: 4/6;
   align-content: center;
   justify-content: center;
 }
