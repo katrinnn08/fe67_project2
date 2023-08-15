@@ -1,3 +1,4 @@
+
 /* font-family: 'PT Serif', serif; */
 
 
@@ -325,9 +326,9 @@
 
   width: 100%;
   border: 18px solid #FBC63E;
-  outline-offset: 1px;
+  outline-offset: 1px; 
   border-radius: 145px;
-}
+} 
 
 .helppic>img {
   position: relative;
@@ -350,14 +351,14 @@
 }
 
 
-
-.buttontohelptext {
-  font-family: 'Pt serif';
-  vertical-align: middle;
-  padding: 20px;
-  max-width: 1fr;
-
-}
+      
+.buttontohelptext{
+    font-family: 'Pt serif';
+    vertical-align: middle;
+    padding: 20px;
+    max-width: 1fr;
+    
+  }
 
 /* .helpdiv {
   max-width: 509px;
@@ -386,21 +387,21 @@
   background-color: #FBC63E;
 }
 
-.conditions_title {
-  position: relative;
+.conditions_title{
+position: relative;
 }
 
 .conditions_title::before {
-  content: "";
-  position: absolute;
-  width: 256px;
-  height: 256px;
-  top: -250px;
-  left: 40px;
-  background: url(/assets/images/paw.png) center center no-repeat;
+content:"";
+position: absolute;
+width: 256px;
+height: 256px;
+top: -250px;
+left: 40px;
+background: url(/assets/images/paw.png) center center no-repeat;
 }
 
-.container_conditions {
+.container_conditions  {
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -408,9 +409,7 @@
   margin-top: 5%;
 
 }
-
-.col_1_conditions,
-.col_2_conditions {
+.col_1_conditions , .col_2_conditions {
 
   display: flex;
   flex-direction: column;
@@ -442,11 +441,11 @@
 
 .card_text {
 
-  width: 300px;
-  margin-top: 20px;
-  font-family: PT Serif;
-  font-size: 24px;
-  font-weight: 400;
+width: 300px;
+margin-top: 20px;
+font-family: PT Serif;
+font-size: 24px;
+font-weight: 400;
 
 }
 
@@ -466,14 +465,14 @@
 .footer__SocNetworks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column: 1/2;
+  grid-column: 2/3;
   align-content: center;
   justify-content: center;
 }
 
 .footer__Logo {
   display: grid;
-  grid-column: 4/6;
+  grid-column: 3/6;
   align-content: center;
   justify-content: center;
 }
