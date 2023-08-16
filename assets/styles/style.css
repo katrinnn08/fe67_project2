@@ -103,12 +103,24 @@
   width: 100%;
   margin: 0 auto;
   border: 5px solid #FBC63E;
-  border-radius: 10px;
+  border-radius: 40px;
 }
 
 .carousel-inner {
   border: 5px solid rgba(250, 153, 99, 0.13);
+  border-radius: 40px;
 }
+
+a.carousel-control-prev {
+  left: -80px;
+  bottom: -30px;
+}
+
+a.carousel-control-next {
+  right: -80px;
+  bottom: -30px;
+}
+
 
 .review {
 
