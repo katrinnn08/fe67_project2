@@ -526,28 +526,32 @@ background: url(/assets/images/paw.png) center center no-repeat;
   min-height: 250px;
   background-color: rgba(251, 198, 62, 1);
   border-radius: 10px;
-
+  align-items: center;
 }
 
 .card_header {
 
   width: 185px;
   height: 59px;
+  margin-left: 10px;
   background-color: #FFFFFF;
   font-family: PT Serif;
   font-size: 32px;
   font-weight: 400;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
+
+
 }
 
 .card_text {
 
-width: 300px;
-margin-top: 20px;
-font-family: PT Serif;
-font-size: 24px;
-font-weight: 400;
+  width: 300px;
+  margin-top: 20px;
+  font-family: PT Serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 20px;
 
 }
 
