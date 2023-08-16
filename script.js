@@ -1,7 +1,7 @@
-  const myCarouselElement = document.querySelector('#carouselExampleIndicators')
+  // const myCarouselElement = document.querySelector('#carouselExampleCaptions')
 
-  const carousel = new bootstrap.Carousel(myCarouselElement, {
-    interval: 5000,
-    touch: true,
-    ride: "carousel"
-  })
+  // const carousel = new bootstrap.Carousel(myCarouselElement, {
+  //   interval: 4000,
+  //   touch: true,
+  //   ride: "carousel"
+  // })
