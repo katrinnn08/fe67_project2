@@ -355,22 +355,26 @@ blockquote::after {
 
 
 .our_wards {
-  color: black;
-  text-transform: normal;
-  font-size: 40px;
-  font-style: normal;
-  font-family: serif;
-  text-align: center;
   width: 70%;
-  height: 30%;
+  padding: 20px;
   margin: auto;
-  border-radius: 31px;
+  border-radius: 60px;
   background: #FBC63E;
+}
+
+.our_wards__Text {
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  max-width: fit-content;
+  margin: auto;
 }
 
 .bootstrap__Cards {
   background-color: rgba(250, 153, 99, 0.13);
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 40px;
 }
 
@@ -383,6 +387,7 @@ blockquote::after {
   background-color: #FBC63E;
   width: 22rem;
   gap: 20px;
+  margin: auto;
 }
 
 .card-img-top {
