@@ -340,17 +340,21 @@ blockquote::after {
 
 
 .our_wards {
-  color: black;
-  text-transform: normal;
-  font-size: 40px;
-  font-style: normal;
-  font-family: serif;
-  text-align: center;
   width: 70%;
-  height: 30%;
+  padding: 20px;
   margin: auto;
-  border-radius: 31px;
+  border-radius: 60px;
   background: #FBC63E;
+}
+
+.our_wards__Text {
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  max-width: fit-content;
+  margin: auto;
 }
 
 .bootstrap__Cards {
