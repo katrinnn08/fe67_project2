@@ -1,4 +1,4 @@
-@media (max-width: 744px) {
+@media (max-width: 1439px) {
 
     .review {
         padding-left: 40px;
@@ -111,6 +111,18 @@
     .mobilecatpage_pickhomebtn:hover {
         color: brown;
     }
+
+    .our_wards {
+        width: 78%;
+    }
+    
+    .our_wards__Text {
+        font-size: 25px;
+    }
+
+    .card {
+        width: 20rem;
+    }
 }
 
 
@@ -123,9 +135,20 @@
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 743px) {
     .catpage {
         display: none;
     }
 
+    .our_wards {
+        width: 92%;
+    }
+    
+    .our_wards__Text {
+        font-size: 25px;
+    }
+
+    .card {
+        width: 18rem;
+    }
 }
