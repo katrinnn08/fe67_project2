@@ -124,13 +124,17 @@
     .our_wards {
         width: 78%;
     }
-    
+
     .our_wards__Text {
         font-size: 25px;
     }
 
     .card {
         width: 20rem;
+    }
+
+    .footer__SocNetworks {
+        grid-column: 1/3;
     }
 }
 
@@ -165,18 +169,18 @@
     .wanttohelpbutton {
         grid-area: 1/1/2/2;
     }
-    
+
     .wantpay {
         grid-area: 2/1/3/2;
     }
-    
+
     .paytext {
         grid-area: 3/1/4/2;
     }
-    
+
     .helppic {
         grid-area: 4/1/5/2;
-    }          
+    }
 
     .paw_wards {
         width: 7rem;
@@ -186,7 +190,7 @@
     .our_wards {
         width: 92%;
     }
-    
+
     .our_wards__Text {
         font-size: 25px;
     }
@@ -195,4 +199,3 @@
         width: 18rem;
     }
 }
-
