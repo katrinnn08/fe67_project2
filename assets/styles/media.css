@@ -112,6 +112,15 @@
         color: brown;
     }
 
+    .this_moments__Text {
+        font-size: 25px;
+    }
+
+    .paw_wards {
+        width: 10rem;
+        height: 10rem;
+    }
+
     .our_wards {
         width: 78%;
     }
@@ -168,6 +177,11 @@
     .helppic {
         grid-area: 4/1/5/2;
     }          
+
+    .paw_wards {
+        width: 7rem;
+        height: 7rem;
+    }
 
     .our_wards {
         width: 92%;

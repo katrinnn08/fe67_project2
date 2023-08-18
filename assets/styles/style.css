@@ -324,38 +324,43 @@ blockquote::after {
 }
 
 .wards_block {
-  max-width: 1420px;
-  height: 400px;
+  max-width: 1440px;
   margin: auto;
   padding: 1%;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 
 .this_moments {
-  color: black;
-  text-transform: none;
-  font-size: 40px;
-  font-family: serif;
-  font-style: normal;
-  text-align: center;
-  height: 30%;
-  margin: 1%;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
   border-radius: 31px;
   background: #FBC63E;
+}
+
+.this_moments__Text {
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  max-width: fit-content;
+  margin: auto;
 }
 
 .paw_wards {
   width: 13rem;
   height: 13rem;
   margin-left: 5%;
+  margin-top: 4%;
 }
 
 
 .our_wards {
-  width: 70%;
+  width: 60%;
   padding: 20px;
   margin: auto;
   border-radius: 60px;
