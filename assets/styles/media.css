@@ -5,7 +5,7 @@
         grid-template-columns: 3fr repeat(3, 2fr);
         grid-template-rows: repeat(2, 1fr);
     }
-    
+
     .header__LogoPart {
         grid-area: 1/1/3/2;
         width: 80%;
@@ -203,17 +203,17 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .container_conditions {
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .conditions_text {
 
-
-
-
-
-
-
-
-
-
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
 
 @media (max-width: 743px) {
 
@@ -222,7 +222,7 @@
         grid-template-columns: 1.5fr 1fr;
         grid-template-rows: 75% 25%;
     }
-    
+
     .header__LogoPart {
         grid-area: 1/1/2/2;
         width: 90%;
@@ -264,6 +264,13 @@
         grid-area: 1/3/2/4;
         justify-self: end;
     }
+
+    .review {
+        padding-left: 40px;
+        padding-right: 20px;
+        margin-top: 30px;
+    }
+
 
     .catpage {
         display: none;
@@ -312,12 +319,13 @@
     }
 
     .mobilecatpage_paw {
-        width: 77.685px;
-        height: 61.998px;
+        width: 200.533px;
         display: grid;
         grid-row: 2 / 3;
         grid-column: 3 / 4;
         justify-self: center;
+        padding-left: 50px;
+
     }
 
     .mobilecatpage_text {
@@ -375,31 +383,11 @@
         color: brown;
     }
 
-    .pam {
-        display: none;
+    .conditions_text {
+
+        margin-top: 25px;
     }
 
-    .wanttohelpdiv {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 2fr 1fr;
-    }
-
-    .wanttohelpbutton {
-        grid-area: 1/1/2/2;
-    }
-
-    .wantpay {
-        grid-area: 2/1/3/2;
-    }
-
-    .paytext {
-        grid-area: 3/1/4/2;
-    }
-
-    .helppic {
-        grid-area: 4/1/5/2;
-    }
 
     .paw_wards {
         width: 7rem;
@@ -417,4 +405,47 @@
     .card {
         width: 18rem;
     }
+
+
+    .card_header {
+
+    margin: 0 auto;
+    max-width: 150px;
+    height: 59px;
+    font-size: 22px;
+    line-height: 55px;
+    }
+
+    .card_text {
+        height: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col_1_conditions, .col_2_conditions, .col_3_conditions {
+    margin-right: 0;
+    margin: 0 auto;
+  
+
+    }
+
+    .pam {
+        display: none;
+    }
+
 }
+
+@media  (max-width: 600px) {
+
+    .container_conditions {
+
+    
+    grid-template-columns: 1fr;
+    }
+
+
+
+}
+
