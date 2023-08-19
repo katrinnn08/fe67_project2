@@ -381,7 +381,7 @@
     }
 
     .conditions_text {
-        margin-left: 5px;
+
         margin-top: 25px;
     }
 
@@ -406,11 +406,43 @@
 
     .card_header {
 
-        max-width: 150px;
-        height: 59px;
-        font-size: 22px;
+    margin: 0 auto;
+    max-width: 150px;
+    height: 59px;
+    font-size: 22px;
+    line-height: 55px;
+    }
+
+    .card_text {
+        height: 200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col_1_conditions, .col_2_conditions, .col_3_conditions {
+    margin-right: 0;
+    margin: 0 auto;
+  
 
     }
 
+    .pam {
+        display: none;
+    }
 
 }
+
+@media  (max-width: 600px) {
+
+    .container_conditions {
+
+    
+    grid-template-columns: 1fr;
+    }
+
+
+
+}
+

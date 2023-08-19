@@ -1,5 +1,10 @@
 /* font-family: 'PT Serif', serif; */
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 
 
 .header_Container {
@@ -456,9 +461,10 @@ blockquote::after {
 
 
 .conditions_text {
+
   margin-left: 200px;
   padding-top: 15px;
-  width: 450px;
+  max-width: 450px;
   height: 101px;
   border-radius: 60px;
   font-size: 30px;
@@ -503,6 +509,7 @@ blockquote::after {
 
 .card_header {
 
+  
   max-width: 185px;
   height: 59px;
   margin-left: 10px;
@@ -518,6 +525,7 @@ blockquote::after {
 
 .card_text {
 
+  
   max-width: 300px;
   margin-top: 20px;
   font-family: PT Serif;
@@ -525,6 +533,10 @@ blockquote::after {
   font-weight: 400;
   padding-left: 20px;
 
+}
+
+.cat_img {
+  max-width: 250px;
 }
 
 .col_3_conditions {
