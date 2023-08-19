@@ -399,7 +399,7 @@ blockquote::after {
 }
 
 .btn:hover {
-  cursor: url('../images/cursor_paw_small_icon.png'), default;
+  cursor: url('../images/cursor_paw_small_icon.png'), default !important;
 }
 
 .wanttohelp {

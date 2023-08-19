@@ -220,7 +220,7 @@
     .header_Container {
         display: grid;
         grid-template-columns: 1.5fr 1fr;
-        grid-template-rows: 3fr 1fr;
+        grid-template-rows: 75% 25%;
     }
     
     .header__LogoPart {
@@ -246,6 +246,10 @@
         justify-content: space-between;
     }
 
+    .header__Nav_Point {
+        font-size: 21px;
+    }
+
     .nav_About {
         grid-area: 1/1/2/2;
         justify-self: start;
@@ -259,7 +263,6 @@
     .nav_Help {
         grid-area: 1/3/2/4;
         justify-self: end;
-        padding-right: 12%;
     }
 
     .catpage {
