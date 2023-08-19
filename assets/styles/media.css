@@ -1,27 +1,81 @@
 @media (max-width: 744px) {
-    
-        .review {
-            padding-left: 40px;
-            padding-right: 20px;
-            margin-top: 30px;
-        }
+
+    .review {
+        padding-left: 40px;
+        padding-right: 20px;
+        margin-top: 30px;
     }
 
+    .conditions_title::before {
+        content: "";
+        position: absolute;
+        width: 256px;
+        height: 256px;
+        top: -250px;
+        left: 40px;
+        background: url(/assets/images/paw.png) center center no-repeat;
+    }
 
+    .conditions_text {
+        margin-left: 10%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 80%;
+        height: 10%;
+        border-radius: 60px;
+        font-size: 25px;
+        font-family: PT serif;
+        text-align: Center;
+        vertical-align: middle;
+        color: #000000;
+        background-color: #FBC63E;
+    }
 
+    .container_conditions {
 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: end;
+        margin-top: 5%;
 
+    }
 
+    .col_1_conditions,
+    .col_2_conditions {
 
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% / 4);
+    }
 
+    .col_3_conditions {
+        width: 80%;
+        margin-top: 20px;
 
-
-
-
-@media (max-width: 320px) {
-    
-
-
-
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {}
