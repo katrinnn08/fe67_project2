@@ -302,9 +302,6 @@ blockquote::after {
   max-width: 1440px;
   margin: auto;
   padding: 1%;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 
 
@@ -368,11 +365,6 @@ blockquote::after {
   width: 22rem;
   gap: 20px;
   margin: auto;
-}
-
-.card-img-top {
-  width: 350px;
-  height: 525px;
 }
 
 .card-body {
