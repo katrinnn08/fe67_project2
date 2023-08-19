@@ -302,9 +302,6 @@ blockquote::after {
   max-width: 1440px;
   margin: auto;
   padding: 1%;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 
 
@@ -370,11 +367,6 @@ blockquote::after {
   margin: auto;
 }
 
-.card-img-top {
-  width: 350px;
-  height: 525px;
-}
-
 .card-body {
   background-color: #FBC63E;
 }
@@ -386,7 +378,7 @@ blockquote::after {
 }
 
 .btn:hover {
-  cursor: url('../images/cursor_paw_small_icon.png'), default;
+  cursor: url('../images/cursor_paw_small_icon.png'), default !important;
 }
 
 .wanttohelp {
