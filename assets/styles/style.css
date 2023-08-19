@@ -415,6 +415,7 @@ blockquote::after {
 .helppic>img {
   position: relative;
   z-index: -1;
+  border-radius: 100px;
 }
 
 .wanttohelppaw {
@@ -473,25 +474,29 @@ blockquote::after {
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   align-items: end;
-  margin-top: 5%;
-
+  margin-top: 40px;
+  grid-template-areas: 
+  
+  "rule_1 rule_2 cat"
+  "rule_3 rule_4 cat";
+  
 }
 
-.col_1_conditions,
-.col_2_conditions {
+.card_one { grid-area: rule_1;}
+.card_two { grid-area: rule_2;}
+.card_three { grid-area: rule_3;}
+.card_four { grid-area: rule_4;}
+.cat_rule { grid-area: cat;}
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 50px;
-}
 
 .card_conditions {
 
   padding: 10px;
   padding-top: 20px;
   margin-bottom: 50px;
+  margin-right: 50px;
   min-height: 280px;
   min-width: 250px;
   background-color: rgba(251, 198, 62, 1);
@@ -528,7 +533,7 @@ blockquote::after {
 }
 
 .cat_img {
-  max-width: 250px;
+  max-width: 90%;
 }
 
 .col_3_conditions {
