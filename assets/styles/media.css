@@ -213,6 +213,14 @@
 @media (max-width: 1000px) {
     .container_conditions {
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+  
+        grid-template-areas: 
+  
+        "rule_1 rule_2"
+        "rule_3 rule_4"
+        "cat cat";
+
     }
 
     .conditions_text {
@@ -449,8 +457,21 @@
 
     .container_conditions {
 
-
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+  
+        "rule_1"
+        "rule_2"
+        "rule_3"
+        "rule_4"
+        "cat ";
+
+    }
+
+    .card_conditions {
+
+        margin-right: 0;
     }
 
 
