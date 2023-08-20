@@ -66,12 +66,6 @@
         justify-content: center;
     }
 
-    .mobilecatpage_pic_vertical {
-        display: grid;
-        grid-row: 1 / 5;
-        grid-column: 1 / 2;
-        justify-content: center;
-    }
 
     .mobilecatpage_img {
         border-radius: 48px;
@@ -214,12 +208,12 @@
     .container_conditions {
         grid-template-columns: 1fr 1fr;
         /* grid-template-rows: 1fr 1fr 1fr; */
-  
-        grid-template-areas: 
-  
-        "rule_1 rule_2"
-        "rule_3 rule_4"
-        "cat cat";
+
+        grid-template-areas:
+
+            "rule_1 rule_2"
+            "rule_3 rule_4"
+            "cat cat";
 
     }
 
@@ -459,13 +453,13 @@
 
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-  
-        "rule_1"
-        "rule_2"
-        "rule_3"
-        "rule_4"
-        "cat ";
+        grid-template-areas:
+
+            "rule_1"
+            "rule_2"
+            "rule_3"
+            "rule_4"
+            "cat ";
 
     }
 
